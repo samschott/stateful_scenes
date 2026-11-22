@@ -59,7 +59,11 @@ ATTRIBUTES_TO_CHECK = {
     "cover": {"current_position"},
     "media_player": {"volume_level", "source"},
     "fan": {"direction", "oscillating", "percentage"},
-    "climate": {"system_mode", "temperature"},
+    "climate": {
+        "system_mode",
+        "temperature",
+        "current_schedule_profile",
+    },
 }
 
 # These attributes trigger reevaluation on any change, regardless of tolerance.
